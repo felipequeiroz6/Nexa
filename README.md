@@ -1,5 +1,5 @@
 # Nexa
-Projeto integrador 2025/2
+
 
 📌 Sobre o Projeto
 
