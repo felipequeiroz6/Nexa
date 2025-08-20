@@ -45,7 +45,7 @@ Project Manager (PO): Felipe de Lima Queiroz
 
 Tester: Gabriel Lima Campos
 
-Tester: Júlia Zakovsky Alves de Jesus
+Tester/Designer: Júlia Zakovsky Alves de Jesus
 
 Dev: Ian Gabriel dos Santos Marques
 
