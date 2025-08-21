@@ -1,90 +1,92 @@
 # Nexa
 
+## Sobre o Projeto
 
-📌 Sobre o Projeto
+O Nexa é um projeto acadêmico desenvolvido na disciplina de Engenharia de Software.  
+Nosso objetivo é aplicar a metodologia Scrum para desenvolver um sistema web que tem como finalidade informar, educar e manter seu público atualizado sobre avanços, tendências e aplicações práticas no campo tecnológico.  
 
-O Nexa é um projeto acadêmico desenvolvido na disciplina de Engenharia de Software. Nosso objetivo é aplicar a metodologia Scrum para desenvolver um sistema web que tem como finalidade informar, educar e manter seu público atualizado sobre avanços, tendências e aplicações práticas no campo tecnológico.
+Buscamos fornecer informações confiáveis e de fácil compreensão, atendendo tanto iniciantes quanto profissionais da área.  
 
-buscamos fornecer informações confiáveis e de fácil compreensão, atendendo tanto iniciantes quanto profissionais da área.
-_________________________________________________________________________________________________________________________________________________________________
-O projeto está sendo versionado no GitHub e acompanhado com ferramentas de gestão ágil.
-_________________________________________________________________________________________________________________________________________________________________
-🚀 Funcionalidades
+O projeto está sendo versionado no GitHub e acompanhado com ferramentas de gestão ágil.  
 
-✅ Organização de tarefas em sprints
+---
 
-✅ Registro de histórico de commits e atas de reunião
+## Funcionalidades
 
-✅ Controle de atividades via GitHub Projects / Trello
+- Organização de tarefas em sprints  
+- Registro de histórico de commits e atas de reunião  
+- Controle de atividades via GitHub Projects / Trello  
+- Desenvolvimento do site  
+- Interface intuitiva para os usuários  
 
-✅ Desenvolvimento do site
+---
 
-🔄 Interface intuitiva para os usuários
-_________________________________________________________________________________________________________________________________________________________________
-🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-Frontend: HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, JavaScript  
+- **Controle de Versão:** Git + GitHub  
+- **Metodologia:** Scrum  
 
-Controle de Versão: Git + GitHub
+---
 
-Metodologia: Scrum
-_________________________________________________________________________________________________________________________________________________________________
-Estrutura do Repositório
+## Estrutura do Repositório
 
-/docs → Documentação do projeto (atas, relatórios, cronograma) 
-/src → Código-fonte do sistema 
-/tests → Testes 
-.gitignore → Arquivos ignorados pelo Git 
-README.md → Apresentação do projeto
-_________________________________________________________________________________________________________________________________________________________________
-👥 Equipe
+- `/docs` → Documentação do projeto (atas, relatórios, cronograma)  
+- `/src` → Código-fonte do sistema  
+- `/tests` → Testes  
+- `.gitignore` → Arquivos ignorados pelo Git  
+- `README.md` → Apresentação do projeto  
 
-Scrum Master: Aleff Daniel Ribeiro de Oliveira Paz
+---
 
-Project Manager (PO): Felipe de Lima Queiroz
+## Equipe
 
-Tester: Gabriel Lima Campos
+- **Scrum Master:** Aleff Daniel Ribeiro de Oliveira Paz  
+- **Project Manager (PO):** Felipe de Lima Queiroz  
+- **Tester:** Gabriel Lima Campos  
+- **Tester/Designer:** Júlia Zakovsky Alves de Jesus  
+- **Dev:** Ian Gabriel dos Santos Marques  
+- **Dev:** João Lucas Guimarães Borba Soares  
 
-Tester/Designer: Júlia Zakovsky Alves de Jesus
+---
 
-Dev: Ian Gabriel dos Santos Marques
+## Organização do Projeto
 
-Dev: João Lucas Guimarães Borba Soares
-_________________________________________________________________________________________________________________________________________________________________
-📅 Organização do Projeto
+**Reuniões:**  
+- Terça-feira 12.08.2025 → Sprint Planning (Funções e logo)
 
-Reuniões:
+---
 
-📌 Segunda-feira → Sprint Planning
+## Status do Projeto
 
-📌 Quinta-feira → Sprint Review + Retrospective
-_________________________________________________________________________________________________________________________________________________________________
-🚧 Status do Projeto: Em andamento!
+Em andamento.  
 
+---
 
-## 📝 Metodologia
+## Metodologia
 
-O desenvolvimento do site seguiu as seguintes etapas:
+O desenvolvimento do site seguiu as seguintes etapas:  
 
-### 🔍 Pesquisa e Requisitos
+### Pesquisa e Requisitos
 - Levantamento teórico baseado em artigos e matérias jornalísticas.  
 - Pesquisa sobre tecnologias atuais para definição das ferramentas utilizadas.  
 
-### 🎨 Planejamento e Design
+### Planejamento e Design
 - Prototipação das telas no **Figma**.  
 - Criação da identidade visual e logotipo no **ibisPaintX**.  
 
-### 📌 Gestão e Desenvolvimento
+### Gestão e Desenvolvimento
 - Aplicação da metodologia ágil **Scrum**.  
 - Uso do **GitHub** para versionamento, histórico de alterações e gestão colaborativa.  
 
-### 💻 Implementação Técnica
+### Implementação Técnica
 - Linguagens: **HTML, CSS, JavaScript**.  
 - IDE utilizada: **Visual Studio Code (VSCode)**.  
 
+**Status atual:** 3ª Semana - Criação do protótipo inicial (wireframes ou esboços).  
 
-🔨 Em desenvolvimento — 3° Semana - Criação do protótipo inicial (wireframes ou esboços)
-_________________________________________________________________________________________________________________________________________________________________
-📜 Licença
+---
+
+## Licença
 
 Este projeto é de uso acadêmico, sem fins comerciais.
