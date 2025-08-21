@@ -59,7 +59,29 @@ Reuniões:
 
 📌 Quinta-feira → Sprint Review + Retrospective
 _________________________________________________________________________________________________________________________________________________________________
-🚧 Status do Projeto
+🚧 Status do Projeto: Em andamento!
+
+
+## 📝 Metodologia
+
+O desenvolvimento do site seguiu as seguintes etapas:
+
+### 🔍 Pesquisa e Requisitos
+- Levantamento teórico baseado em artigos e matérias jornalísticas.  
+- Pesquisa sobre tecnologias atuais para definição das ferramentas utilizadas.  
+
+### 🎨 Planejamento e Design
+- Prototipação das telas no **Figma**.  
+- Criação da identidade visual e logotipo no **ibisPaintX**.  
+
+### 📌 Gestão e Desenvolvimento
+- Aplicação da metodologia ágil **Scrum**.  
+- Uso do **GitHub** para versionamento, histórico de alterações e gestão colaborativa.  
+
+### 💻 Implementação Técnica
+- Linguagens: **HTML, CSS, JavaScript**.  
+- IDE utilizada: **Visual Studio Code (VSCode)**.  
+
 
 🔨 Em desenvolvimento — 3° Semana - Criação do protótipo inicial (wireframes ou esboços)
 _________________________________________________________________________________________________________________________________________________________________
