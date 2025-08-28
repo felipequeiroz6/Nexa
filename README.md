@@ -1,6 +1,6 @@
 # Nexa  
 
-![Logo Nexa](./Nexa-logo.png)
+![Logo Nexa](./Nexa-Logo.png)
 
 ## Sobre o Projeto
 
