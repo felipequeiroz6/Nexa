@@ -23,7 +23,8 @@ O projeto está sendo versionado no GitHub e acompanhado com ferramentas de gest
 
 ## Tecnologias Utilizadas
 
-- **Frontend:** HTML, CSS, JavaScript  
+- **Frontend:** HTML, CSS, JavaScript
+- **Back-end:** Java  
 - **Controle de Versão:** Git + GitHub  
 - **Metodologia:** Scrum  
 
@@ -80,7 +81,9 @@ O desenvolvimento do site seguiu as seguintes etapas:
 - Uso do **GitHub** para versionamento, histórico de alterações e gestão colaborativa.  
 
 ### Implementação Técnica
-- Linguagens: **HTML, CSS, JavaScript**.  
+- Linguagens:  
+ **Front-end: HTML, CSS, JavaScript.**  
+ **Back-end: Java**.  
 - IDE utilizada: **Visual Studio Code (VSCode)**.  
 
 **Status atual:** 3ª Semana - Criação do protótipo inicial (wireframes ou esboços).  
