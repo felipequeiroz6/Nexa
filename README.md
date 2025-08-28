@@ -1,4 +1,6 @@
-# Nexa
+# Nexa  
+
+![Logo Nexa](./Nexa-logo.png)
 
 ## Sobre o Projeto
 
@@ -23,7 +25,7 @@ O projeto está sendo versionado no GitHub e acompanhado com ferramentas de gest
 
 ## Tecnologias Utilizadas
 
-- **Frontend:** HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, JavaScript  
 - **Back-end:** Java  
 - **Controle de Versão:** Git + GitHub  
 - **Metodologia:** Scrum  
