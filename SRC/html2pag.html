@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informação, Conhecimento, Tecnologia</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            background-color: #fff;
+            line-height: 1.6;
+        } 
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Barra Superior */
+        .top-bar {
+            background-color: #4a4a4a;
+            padding: 10px 0;
+        }
+        .top-bar .container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .logo img {
+            max-width: 80px;
+            height: auto;
+            display: block;
+        }
+
+        /* Hero (Cérebro e Texto) - AJUSTADO */
+        .hero {
+            background-color: #f0f0f0;
+            padding: 40px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+        .brain-img {
+            max-width: 120px; /* Tamanho ajustado */
+            height: auto;
+        }
+        .hero-text h1 {
+            margin: 5px 0;
+            font-size: 2em; /* Fonte ajustada */
+            font-weight: 400;
+            color: #555;
+            text-transform: lowercase;
+        }
+
+        /* Conteúdo Principal */
+        .content {
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+        
+        /* Título Principal ("Inteligência Artificial") - NOVO ESTILO */
+        .title-container {
+            text-align: center; /* Centraliza o elemento inline-block abaixo */
+            margin: 20px 0 30px 0;
+        }
+        .title-box {
+            background-color: #4a4a4a;
+            color: #fff;
+            padding: 10px 30px;
+            border-radius: 30px;
+            display: inline-block; /* Faz o fundo se ajustar ao texto */
+            font-size: 1.6em;
+            margin: 0;
+        }
+        
+        /* Títulos secundários (h3) */
+        .content h3 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 700;
+            font-size: 1.5em;
+            margin-top: 40px;
+        }
+
+        /* Parágrafos - AJUSTADO */
+        .content p {
+            font-size: 1em;
+            color: #555;
+            text-align: center; /* Texto centralizado */
+            max-width: 75ch; /* Limita a largura para melhor leitura */
+            margin: 0 auto 20px auto; /* Centraliza o bloco de parágrafo */
+        }
+
+        /* Gráfico - AJUSTADO */
+        .chart-section {
+            text-align: center; /* Centraliza tudo dentro */
+            margin: 40px 0;
+        }
+        .chart-section h3 {
+             font-size: 2.2em; /* Aumenta o título do gráfico */
+             margin-bottom: 25px;
+        }
+        .chart-section figure {
+            margin: 0 auto; /* Garante centralização */
+            padding: 0;
+        }
+        .chart-section figure img {
+            max-width: 750px; /* Limita o tamanho do gráfico */
+            width: 100%; /* Garante que seja responsivo até o limite */
+            height: auto;
+        }
+
+        /* Seções de comparação e referências */
+        .comparison-section { margin-top: 50px; }
+        .comparison-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 30px;
+            text-align: left; /* Mantém texto das colunas à esquerda */
+        }
+        .column {
+            flex: 1; padding: 15px; background-color: #f9f9f9; border-top: 4px solid;
+        }
+        .column ul { list-style: none; padding: 0; margin: 0; }
+        .column li { padding: 10px 5px; border-bottom: 1px solid #eee; }
+        .column li:last-child { border-bottom: none; }
+        .medo { border-color: #d9534f; }
+        .realidade { border-color: #5cb85c; position: relative; }
+        .dev-img {
+            position: absolute; bottom: -15px; right: -40px; max-width: 100px;
+        }
+        .references {
+            margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; text-align: left;
+        }
+        .references h4 { font-size: 1.2em; margin-bottom: 15px; }
+        .references p { text-align: left; max-width: 100%; } /* Reseta o alinhamento para as referências */
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .hero-content { flex-direction: column; text-align: center; gap: 20px; }
+            .comparison-container { flex-direction: column; }
+            .dev-img { display: none; }
+        }
+    </style> 
+    <header class="top-bar">
+        <div class="container">
+            <div class="logo"><img src="/doc/imagens/logo.png" alt="logo nexa"></div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <img src="/doc/imagens/cerebro.png" alt="Ilustração de um cérebro digital" class="brain-img">
+            <div class="hero-text">
+                <h1>informação</h1>
+                <h1>conhecimento</h1>
+                <h1>tecnologia</h1>
+            </div>
+        </div>
+    </section>
+
+    <main class="container content">
+        <article>
+            <div class="title-container">
+                <h2 class="title-box">Inteligência Artificial</h2>
+            </div>
+            <p>
+                A Inteligência Artificial (IA) é um campo da ciência da computação que se dedica ao desenvolvimento de sistemas capazes de realizar tarefas que normalmente exigiriam inteligência humana. Essas tarefas incluem aprendizado, raciocínio, resolução de problemas, percepção e compreensão da linguagem. A IA abrange diversas subáreas, como Machine Learning (Aprendizado de Máquina), Deep Learning (Aprendizado Profundo) e Processamento de Linguagem Natural (PLN), cada uma com suas próprias técnicas e aplicações que estão transformando indústrias e o nosso cotidiano.
+            </p>
+
+            <section class="chart-section">
+                <h3>Impacto da IA no Mercado de Trabalho (1960-2024)</h3>
+                <figure>
+                    <img src="/doc/imagens/grafico.png" alt="Gráfico mostrando o Impacto da IA no Mercado de Trabalho de 1960 a 2024">
+                </figure>
+                <p>
+                    Muita gente no setor de tecnologia da informação vê a Inteligência Artificial como uma ameaça aos empregos, especialmente com o avanço rápido de modelos capazes de escrever códigos, criar designs de sistemas e até sugerir soluções complexas. Esse medo é compreensível, já que funções repetitivas e de baixa complexidade técnica tendem a ser automatizadas. No entanto, essa visão ignora um ponto essencial: a IA é uma ferramenta, não um substituto completo para profissionais qualificados.
+A IA pode gerar códigos, mas não compreende o contexto completo de um projeto, as necessidades de um cliente, ou as implicações estratégicas e éticas de uma solução. Para que funcione corretamente, é preciso que alguém com conhecimento técnico saiba estruturar o problema, interpretar os resultados, corrigir erros e integrar a solução no ambiente real. Em outras palavras, a IA não elimina a necessidade de programadores, analistas e engenheiros — ela eleva o nível do trabalho, exigindo mais capacidade de análise, pensamento crítico e especialização.
+Assim como calculadoras não acabaram com a matemática, a IA não vai acabar com o trabalho em TI, mas vai mudar seu formato. Quem dominar programação, ciência de dados, arquitetura de sistemas e, agora, técnicas para trabalhar com IA, terá mais vantagem no mercado. O cenário não é de substituição total, mas de transformação de funções — e a adaptação contínua será o diferencial para manter relevância profissional.
+                </p>
+            </section>
+            
+            <section class="comparison-section">
+                <h3>IA no Mercado de TI: Medo vs. Realidade</h3>
+                <div class="comparison-container">
+                    <div class="column medo">
+                        <ul>
+                            <li>Vai substituir todos os programadores</li>
+                            <li>Vai nivelar o mercado por baixo</li>
+                            <li>Entende o contexto como humanos</li>
+                            <li>Mais veloz e gera a pressão por prazos</li>
+                            <li>Tira o brilho do profissional</li>
+                        </ul>
+                    </div>
+                    <div class="column realidade">
+                        <ul>
+                            <li>Aumenta o acesso às profissões para grupos sub-representados</li>
+                            <li>Eleva o nível das vagas e dos seus desafios</li>
+                            <li>Não compreende com exatidão cenários, precisa de comando</li>
+                            <li>Cria requerimentos de tarefas com mais clareza</li>
+                            <li>Permite foco para a solução do problema de forma criativa</li>
+                        </ul>
+                        <img src="/doc/imagens/desenvolvedor.png" alt="Desenvolvedor trabalhando em um computador" class="dev-img">
+                    </div>
+                </div>
+            </section>
+
+            <section class="references">
+                <h4>Referências</h4>
+                <p><strong>BRYNJOLFSSON, Erik; MCAFEE, Andrew.</strong> The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies. W. W. Norton & Company, 2014.</p>
+                <p><strong>FORD, Martin.</strong> Rise of the Robots: Technology and the Threat of a Jobless Future. Basic Books, 2015.</p>
+                <p><strong>KAPLAN, Andreas; HAENLEIN, Michael.</strong> "Siri, Siri, in my hand: Who's the fairest in the land? On the interpretations, illustrations, and implications of artificial intelligence." Business Horizons, 2019.</p>
+                <p><strong>RUSSELL, Stuart; NORVIG, Peter.</strong> Artificial Intelligence: A Modern Approach. 4th ed., Pearson, 2020.</p>
+                <p><strong>WEF (World Economic Forum).</strong> "The Future of Jobs Report 2023". Acessado em [data de acesso], disponível em: www.weforum.org</p>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
