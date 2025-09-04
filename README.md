@@ -56,7 +56,8 @@ O projeto está sendo versionado no GitHub e acompanhado com ferramentas de gest
 ## Organização do Projeto
 
 **Reuniões:**  
-- Terça-feira 12.08.2025 → Sprint Planning (Funções e logo)
+- Sexta-feira → Sprint Planning
+- Terça-feira → Sprint Review
 
 ---
 
