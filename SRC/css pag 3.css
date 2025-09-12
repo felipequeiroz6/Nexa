@@ -1,0 +1,92 @@
+/* Estilo geral */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Cabeçalho */
+.topo {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #e5f0ff;
+}
+
+.topo .logo {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.topo h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Seções dos canais */
+.canal {
+  max-width: 1334px;
+  margin: 50px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.canal .banner {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.canal .descricao h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.canal .descricao p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Botão */
+.botao {
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 20px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.botao:hover {
+  background-color: #2563eb;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .topo h1 {
+    font-size: 1.6rem;
+  }
+
+  .canal .descricao h2 {
+    font-size: 1.4rem;
+  }
+
+  .botao {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
