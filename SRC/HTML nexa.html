@@ -3,55 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexa</title>
+    <title>Nexa - Inovação e Tecnologia</title>
     <link rel="stylesheet" href="css nexa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-        <h1>
-            <img src="../doc/imagens/logo.png" alt="logo nexa" class="logo-h1">
-            
-            <b>INOVAÇÃO QUE CONECTA O PRESENTE AO <br>FUTURO.</b>
-        </h1>
-        <div class = "textoPrincipal">
-        <h3><b>NEXA</b></h3>
-        <p><b>FIQUE POR DENTRO DO MUNDO TECNOLOGICO <br>E SUAS NOVIDADES</b></p>
-    </div>
-    <hr>
-    <div class="PrimeiraNoticia">
-        <h3><b>INTELIGÊNCIA ARTIFICIAL</b></h3>
-        <a href="html2pag.html"><p>É uma ameaça ao setor de tecnologia<br> venha ver um pouco mais sobre isso<br></a> </p>
-        <hr>
-    </div>
-    <div class = "botão1">
-        <p>CANAIS DO MUNDO <br> TECNOLÓGICO<br></p>
-            <a href="pag 3 indicações.html">
-              <img src="../doc/imagens/youtube.png" alt="youtube logo" id="youtube">
-            </a>
-        
-    </div>
-    <div class = "botão2">
-        <div class = "icone"><img src="../doc/imagens/botao2logo.png"></div>
-         <a href="html pag4.html">POR ONDE <br> COMEÇAR <br>A PROGRAMAR </a>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <img src="../doc/imagens/logo.png" alt="Logo Nexa" class="logo-header">
+            <h1>INOVAÇÃO QUE CONECTA O PRESENTE AO FUTURO.</h1>
         </div>
-    <br>
-    <hr>
-    <div class="segundaNoticia">
-        <h3><b>notícias em alta</b></h3>
-        <p>notícias rápidas para ficar por dentro dos acontecimentos</p>
-    </div>
-    <hr>
-    <div class="Terceira noticia">
-        <h3><b>INTERNET QUÂNTICA</b></h3>
-        <p>É uma realidade que se aproxima</p>
-    </div>
-    <hr>
-    <div class="botão3">
-        <a href="pagina 5.html">Profissões em alta no mercado de trabalho
-        <img src="../doc/imagens/imagemprofis.jpg" alt="Profissões"></a>
-    </div>
-    <div class="botão4">
-        <a href="#">Computação quântica
-        <img src="../doc/imagens/quantico.png" alt="quantica"></a>
-    </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>NEXA</h2>
+            <p>FIQUE POR DENTRO DO MUNDO TECNOLÓGICO E SUAS NOVIDADES</p>
+        </section>
+        <hr>
+
+        <article class="news-item">
+            <h3>INTELIGÊNCIA ARTIFICIAL</h3>
+            <a href="html2pag.html"><p>É uma ameaça no setor de mercado da tecnologia? Venha ver um pouco mais sobre isso.</p></a>
+        </article>
+        <hr>
+
+        <section class="actions-grid">
+            <a href="pag 3 indicações.html" class="action-box">
+                <h4>CANAIS DO MUNDO<br>TECNOLÓGICO</h4>
+                <div class="youtube-link">
+                    <img src="../doc/imagens/youtube.png" alt="Ícone do YouTube">
+                    
+                </div>
+            </a>
+            <a href="html pag4.html" class="action-box">
+                <img src="../doc/imagens/botao2logo.png" alt="Ícone de programação" class="action-icon">
+                <h4>POR ONDE<br>COMEÇAR<br>A PROGRAMAR?</h4>
+            </a>
+        </section>
+        <hr>
+        
+        <article class="news-item">
+            <h3>NOTÍCIAS EM ALTA</h3>
+            <p>Notícias rápidas para lhe por dentro dos acontecimentos.</p>
+        </article>
+        <hr>
+
+        <article class="news-item">
+            <h3>INTERNET QUÂNTICA</h3>
+            <p>É uma realidade que se aproxima?</p>
+        </article>
+        <hr>
+
+        <section class="cards-grid">
+            <a href="pagina 5.html" class="image-card card1">
+                <div class="card-overlay">
+                    <h4>PROFISSÕES EM ALTA<br>NO MERCADO<br>TECNOLÓGICO</h4>
+                </div>
+            </a>
+            <a href="#" class="image-card card2">
+                <div class="card-overlay">
+                    <h4>COMPUTAÇÃO<br>QUÂNTICA</h4>
+                </div>
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>NEXA <span class="hashtag">#ACOMPANHEOMUNDO</span></p>
+            <img src="../doc/imagens/logo.png" alt="Logo Nexa" class="logo-footer">
+        </div>
+    </footer>
+
 </body>
 </html>
