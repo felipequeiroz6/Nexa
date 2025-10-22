@@ -70,6 +70,14 @@ hr {
     font-size: 1rem;
     color: #555;
     line-height: 1.5;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.news-item p:hover {
+    color: #BCD5F3;
+    cursor: pointer;
+    transform: scale(1.1);
+    filter:contrast(1.1) 
+    
 }
 
 /* --- Grade de Ações (Botões Azuis) --- */
