@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif; 
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;         
+    padding: 0 20px;
+    position: relative;
+}
+
+
+header {
+    position: relative;
+    height: auto;
+    padding: 5px 20px;
+    background-color: #BCD5F3;      
+    display: flex;               
+    justify-content: flex-end;   
+    align-items: center;         
+    box-sizing: border-box;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    z-index: 999;
+}
+
+.logo {
+    position: static;            
+    margin: 0;
+    background-color: transparent;
+}
+
+.logo img {
+    display: block;
+    height: 70px;                
+    width: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+.article-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    overflow: hidden; 
+    padding: 25px;
+}
+
+.article-card h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.article-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.article-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.article-card .read-more {
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    display: block; 
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.article-card .read-more:hover {
+    text-decoration: underline;
+}
+
+.article-card .source-link {
+    font-size: 15px;
+    color: #888;
+    text-decoration: none; 
+}
+.article-card .source-link:hover {
+    text-decoration: underline;
+}
+
+
+.two-column-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px; 
+}
+
+.two-column-layout .text-content {
+    flex: 1.2; 
+}
+
+.two-column-layout .image-content {
+    flex: 1;
+    margin-top: 50px; 
+    text-align: center;
+}
+
+.two-column-layout img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px; 
+}
+
+main {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .two-column-layout {
+        flex-direction: column; 
+    }
+
+    .article-card h2 {
+        font-size: 22px;
+    }
+}
