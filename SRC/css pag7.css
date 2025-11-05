@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif; 
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;        
+    padding: 0 20px;
+    position: relative; 
+}
+
+
+header {
+    position: relative;
+    height: auto;
+    padding: 5px 20px;
+    background-color: #BCD5F3;      
+    display: flex;               
+    justify-content: flex-end;   
+    align-items: center;         
+    box-sizing: border-box;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    z-index: 999;
+}
+
+.logo {
+    position: static;            
+    margin: 0;
+    background-color: transparent;
+}
+
+.logo img {
+    display: block;
+    height: 70px;                
+    width: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+h1, h2 {
+    font-family: 'Lora', 'Times New Roman', serif; 
+    color: #000;
+}
+
+h1 {
+    font-size: 38px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.atomo-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+
+.challenge-list {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.challenge-list li {
+    position: relative;
+    padding-left: 20px; 
+    margin-bottom: 12px;
+}
+
+.challenge-list li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.challenge-list li strong {
+    color: #000;
+}
+
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #555;
+}
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #000000; 
+    text-decoration: underline;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+}
+
+main {
+    margin-top: 20px;
+}

@@ -1,0 +1,164 @@
+body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            background-color: #fff;
+            line-height: 1.6;
+        } 
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;         
+            padding: 0 20px;
+            position: relative;
+        }
+
+
+        header {
+            position: relative;
+            height: auto;
+            padding: 5px 20px;
+            background-color: #4a4a4a;     
+            display: flex;               
+            justify-content: flex-end;   
+            align-items: center;         
+            box-sizing: border-box;
+            width: 100vw;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            z-index: 999;
+        }
+
+        .logo {
+            position: static;            
+            margin: 0;
+            background-color: transparent;
+        }
+
+        .logo img {
+            display: block;
+            height: 70px;                
+            width: auto;
+            font-size: 24px;
+            font-weight: bold;
+            color: #444;
+            font-family: 'Roboto', sans-serif; 
+        }
+
+        
+        .hero {
+            background-color: #f0f0f0;
+            padding: 40px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+        .brain-img {
+            max-width: 120px; 
+            height: auto;
+        }
+        .hero-text h1 {
+            margin: 5px 0;
+            font-size: 2em;
+            font-weight: 400;
+            color: #555;
+            text-transform: uppercase;
+        }
+
+        
+        .content {
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+        
+        
+        .title-container {
+            text-align: center; 
+            margin: 20px 0 30px 0;
+        }
+        .title-box {
+            background-color: #4a4a4a;
+            color: #fff;
+            padding: 10px 30px;
+            border-radius: 30px;
+            display: inline-block; 
+            font-size: 1.6em;
+            margin: 0;
+        }
+        
+        
+        .content h3 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 700;
+            font-size: 1.5em;
+            margin-top: 40px;
+        }
+
+        
+        .content p {
+            font-size: 1em;
+            color: #555;
+            text-align: center; 
+            max-width: 75ch; 
+            margin: 0 auto 20px auto; 
+        }
+
+        
+        .chart-section {
+            text-align: center; 
+            margin: 40px 0;
+        }
+        .chart-section h3 {
+             font-size: 2.2em;
+             margin-bottom: 25px;
+        }
+        .chart-section figure {
+            margin: 0 auto;
+            padding: 0;
+        }
+        .chart-section figure img {
+            max-width: 750px;
+            width: 100%; 
+            height: auto;
+        }
+
+        
+        .comparison-section { margin-top: 50px; }
+        .comparison-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 30px;
+            text-align: left; 
+        }
+        .column {
+            flex: 1; padding: 15px; background-color: #f9f9f9; border-top: 4px solid;
+        }
+        .column ul { list-style: none; padding: 0; margin: 0; }
+        .column li { padding: 10px 5px; border-bottom: 1px solid #eee; }
+        .column li:last-child { border-bottom: none; }
+        .medo { border-color: #d9534f; }
+        .realidade { border-color: #5cb85c; position: relative; }
+        .dev-img {
+            position: absolute; bottom: -15px; right: -40px; max-width: 100px;
+        }
+        .references {
+            margin-top: 60px; padding-top: 20px; border-top: 1px solid #eee; text-align: left;
+        }
+        .references h4 { font-size: 1.2em; margin-bottom: 15px; }
+        .references p { text-align: left; max-width: 100%; } 
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .hero-content { flex-direction: column; text-align: center; gap: 20px; }
+            .comparison-container { flex-direction: column; }
+            .dev-img { display: none; }
+        }

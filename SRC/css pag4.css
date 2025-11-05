@@ -1,0 +1,287 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2, h3{
+    color: #1e293b;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #4a5568;
+}
+
+strong {
+    color: #1e293b;
+}
+
+a {
+    text-decoration: none;
+    color: #4f46e5;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;         
+    padding: 0 20px;
+    position: relative;
+}
+
+
+header {
+    position: relative;
+    height: auto;
+    padding: 5px 20px;
+    background-color: #BCD5F3;      
+    display: flex;               
+    justify-content: flex-end;   
+    align-items: center;         
+    box-sizing: border-box;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    z-index: 999;
+}
+
+.logo {
+    position: static;            
+    margin: 0;
+    background-color: transparent;
+}
+
+.logo img {
+    display: block;
+    height: 70px;                
+    width: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.hero-image-section {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.hero-image-section img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.content-section {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.columns {
+    display: flex;
+    gap: 40px;
+}
+
+.column {
+    flex: 1;
+}
+
+.column ul {
+    padding-left: 20px;
+}
+
+
+.platform-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.platform-card {
+    position: relative;
+    max-width: 650px;
+}
+
+.platform-card img {
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.platform-text {
+    background-color: #f0f0f0;
+    padding: 30px 30px 30px 170px; 
+    border-radius: 8px;
+}
+
+.platform-text h3 {
+    margin-top: 0;
+}
+
+
+.cev-section {
+    max-width: 420px;
+    width: 100%;
+    margin: 40px 0;
+    border-radius: 8px;
+    /* Adicionando uma sombra sutil para destaque */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+}
+
+.cev-header-image {
+    width: 100%;
+    display: block; 
+}
+
+.cev-body {
+    background-color: #f0f0f0;
+    padding: 30px 20px;
+}
+
+.cev-text {
+    text-align: center;
+    font-size: 1.1rem; /* 18px */
+    font-family: Kdam Thmor Pro;
+    color: #555;
+    margin-top: 5;
+    margin-bottom: 25px; /* Espaço entre o texto e a área de ação */
+    position: relative;
+    left: 40px;
+}
+
+.cev-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row; /* seta ao lado do texto/botão */
+}
+
+.cev-flecha {
+    width: 50px; 
+    height: auto;
+    rotate: 35deg;
+    position: relative;
+    top: -55px; /* Sobe a seta 10px, ajuste conforme necessário */
+}
+
+.cev-button-image {
+    max-width: 280px; 
+    display: block;
+    transition: transform 0.5s ease-in-out, filter 0.5s; 
+}
+
+
+.cev-button-image:hover {
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
+}
+
+.book-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Inria Serif;
+}
+
+.book-card {
+    background-color: #e0e7ff;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 700px;
+    
+}
+
+.book-card img {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out, filter 0.5s;
+}
+.book-card img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+.book-info h3, .book-info h4 {
+    margin: 0 0 10px 0;
+}
+.book-info h4 {
+    color: #4f46e5;
+    font-weight: normal;
+}
+
+.book-info p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .columns {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .platform-card {
+        text-align: center;
+    }
+    
+    .platform-card img {
+        position: static;
+        transform: none;
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    
+    .platform-text {
+        padding: 20px;
+    }
+
+    .book-card {
+        flex-direction: column;
+        text-align: center;
+    }
+}
