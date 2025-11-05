@@ -10,19 +10,45 @@ body {
     align-items: center;
 }
 
+.container {
+    max-width: 900px;
+    margin: 0 auto;         
+    padding: 0 20px;
+    position: relative;
+}
+
+
 header {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px 20px;
+    position: relative;
+    height: auto;
+    padding: 5px 20px;
+    background-color: #BCD5F3;      
+    display: flex;               
+    justify-content: flex-end;   
+    align-items: center;         
     box-sizing: border-box;
-    background-color: #BCD5F3;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    z-index: 999;
+}
+
+.logo {
+    position: static;            
+    margin: 0;
+    background-color: transparent;
 }
 
 .logo img {
-    height: auto;
-    width: 100px;
-    
+    display: block;
+    height: 70px;                
+    width: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    font-family: 'Roboto', sans-serif; 
 }
 
 main {
