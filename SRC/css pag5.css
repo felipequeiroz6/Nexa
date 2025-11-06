@@ -135,7 +135,9 @@ footer {
   color: #555;
 }
 
-
+/* ------------------------------
+   RESPONSIVIDADE
+------------------------------ */
 @media (min-width: 768px) {
   .lista {
     grid-template-columns: 1fr 1fr;
