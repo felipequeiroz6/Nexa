@@ -30,7 +30,7 @@ hr {
 
 
 .hero {
-    background-image: url('../doc/imagens/maocomrobo.png'); 
+    background-image: url('maocomrobo.png'); 
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -187,11 +187,11 @@ hr {
 
 
 .card1 {
-    background-image: url('../doc/imagens/imagemprofis.jpg'); 
+    background-image: url('imagemprofis.jpg'); 
 }
 
 .card2 {
-    background-image: url('../doc/imagens/quantico.png'); 
+    background-image: url('quantico.png'); 
 }
 
 .card-overlay {
