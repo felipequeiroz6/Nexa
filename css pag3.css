@@ -1,4 +1,3 @@
-/* Estilo geral */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f9f9f9;
@@ -7,23 +6,51 @@ body {
   color: #333;
 }
 
-/* Cabeçalho */
-.topo {
-  text-align: center;
-  padding: 30px 20px;
-  background-color: #e5f0ff;
+.container {
+    max-width: 900px;
+    margin: 0 auto;         
+    padding: 0 20px;
+    position: relative;
 }
 
-.topo .logo {
-  width: 100px;
-  height: auto;
-  display: block;
-  margin: 0 auto 15px auto;
+
+header {
+    position: relative;
+    height: auto;
+    padding: 5px 20px;
+    background-color: #BCD5F3;      
+    display: flex;               
+    justify-content: flex-end;   
+    align-items: center;         
+    box-sizing: border-box;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    z-index: 999;
 }
 
-.topo h1 {
+.logo {
+    position: static;            
+    margin: 0;
+    background-color: transparent;
+}
+
+.logo img {
+    display: block;
+    height: 70px;                
+    width: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    font-family: 'Roboto', sans-serif; 
+}
+
+ h1 {
   font-size: 2rem;
   margin: 0;
+  text-align: center;
 }
 
 /* Seções dos canais */
@@ -76,7 +103,7 @@ body {
 
 /* Responsividade */
 @media (max-width: 768px) {
-  .topo h1 {
+  h1 {
     font-size: 1.6rem;
   }
 
@@ -89,4 +116,3 @@ body {
     font-size: 0.9rem;
   }
 }
-
