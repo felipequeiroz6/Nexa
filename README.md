@@ -87,7 +87,7 @@ O desenvolvimento do site seguiu as seguintes etapas:
  **Front-end: HTML, CSS, JavaScript.**  
 - IDE utilizada: **Visual Studio Code (VSCode)**.  
 
-**Status atual:** 3ª Semana - Criação do protótipo inicial (wireframes ou esboços).  
+**Status atual:** Finalizado.  
 
 ---
 
