@@ -62,7 +62,7 @@ O projeto está sendo versionado no GitHub e acompanhado com ferramentas de gest
 
 ## Status do Projeto
 
-Em andamento.  
+Finalizado.  
 
 ---
 
